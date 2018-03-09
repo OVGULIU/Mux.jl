@@ -40,7 +40,7 @@ The `@app` macro allows the server to be redefined on the fly, and you
 can test this by editing the `hello` text and re-evaluating. (don't
 re-evalute `serve(test)`)
 
-## Technical Overview
+## Technical Overview
 
 Mux.jl is at heart a control flow library, with a [very small core](https://github.com/one-more-minute/Mux.jl/blob/master/src/Mux.jl#L7-L16). It's not important to understand that code exactly as long as you understand what it achieves.
 
